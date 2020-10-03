@@ -1,0 +1,282 @@
+body,
+html {
+  position: relative;
+  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
+  overscroll-behavior: none;
+}
+
+main {
+  text-align: left;
+  margin-right: auto;
+  margin-left: auto;
+}
+.page-header {
+  display: block;
+  width: 100%;
+  padding: 32px 0 64px;
+  text-align: center;
+}
+
+#screensizemap-section {
+  position: relative;
+  top: auto;
+  left: 0;
+}
+.wrapper {
+  position: relative;
+  max-width: 2000px;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 32px;
+}
+#screensizemap *,
+#screensizemap svg path {
+  user-select: none;
+}
+#screensizemap {
+  position: relative;
+  display: block;
+  padding: 0%;
+  width: auto;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+
+  font-size: 18px;
+  background-color: #fff;
+}
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+.svg-container {
+  text-align: center;
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  width: 100%;
+  padding: 0%;
+
+  padding-bottom: 100%;
+  padding-bottom: 56.25%;
+}
+
+#svg-screensizes #XXL rect,
+#svg-screensizes #XL rect,
+#svg-screensizes #XS rect,
+#svg-screensizes #L rect,
+#svg-screensizes #M rect,
+#svg-screensizes #S rect {
+  fill-opacity: 0.2;
+}
+/* XXL */
+#svg-screensizes #XXL rect {
+  fill: #f1c513;
+  fill-opacity: 0.2;
+}
+rect {
+  width: 2560;
+  height: 1440;
+  x: 0;
+  y: 0;
+}
+rect {
+  width: 1920;
+  height: 1440;
+  x: 0;
+  y: 0;
+}
+rect {
+  width: 1920;
+  height: 1080;
+  x: 320;
+  y: 0;
+}
+rect {
+  width: 1680;
+  height: 1080;
+  x: 440;
+  y: 0;
+}
+rect {
+  width: 1600;
+  height: 900;
+  x: 480;
+  y: 0;
+}
+rect {
+  width: 1536;
+  height: 864;
+  x: 512;
+  y: 0;
+}
+/* XL */
+#svg-screensizes #XL polygon,
+#svg-screensizes #XL rect {
+  fill: #e67e22;
+}
+rect {
+  width: 1440;
+  height: 900;
+  x: 560;
+  y: 0;
+}
+rect {
+  width: 1366;
+  height: 768;
+  x: 597;
+  y: 0;
+}
+rect {
+  width: 1280;
+  height: 800;
+  x: 640;
+  y: 0;
+}
+
+#svg-screensizes #XL rect {
+  fill-opacity: 0.2;
+}
+/* Large L */
+#svg-screensizes #L rect {
+  fill: #e74c3c;
+}
+rect {
+  width: 1024;
+  height: 768;
+  x: 768;
+  y: 0;
+}
+rect {
+  width: 960;
+  height: 540;
+  x: 800;
+  y: 0;
+}
+
+/* Medium M */
+#svg-screensizes #M rect {
+  fill: #2ecc71;
+}
+rect {
+  width: 800;
+  height: 1280;
+  x: 880;
+  y: 0;
+}
+rect {
+  width: 800;
+  height: 480;
+  x: 880;
+  y: 0;
+}
+rect {
+  width: 768;
+  height: 1366;
+  x: 896;
+  y: 0;
+}
+rect {
+  width: 768;
+  height: 1024;
+  x: 896;
+  y: 0;
+}
+rect {
+  width: 720;
+  height: 1280;
+  x: 920;
+  y: 0;
+}
+/* Small S */
+#svg-screensizes #S rect {
+  fill: #2980b9;
+}
+rect {
+  width: 600;
+  height: 1024;
+  x: 980;
+  y: 0;
+}
+rect {
+  width: 600;
+  height: 960;
+  x: 980;
+  y: 0;
+}
+rect {
+  width: 540;
+  height: 960;
+  x: 1010;
+  y: 0;
+}
+rect {
+  width: 480;
+  height: 800;
+  x: 1040;
+  y: 0;
+}
+
+/* Extra Small XS */
+#svg-screensizes #XS rect {
+  fill: #8e44ad;
+}
+rect {
+  width: 414;
+  height: 736;
+  x: 1073;
+  y: 0;
+}
+rect {
+  width: 400;
+  height: 640;
+  x: 1080;
+  y: 0;
+}
+rect {
+  width: 384;
+  height: 640;
+  x: 1088;
+  y: 0;
+}
+rect {
+  width: 375;
+  height: 667;
+  x: 1092.5;
+  y: 0;
+}
+rect {
+  width: 360;
+  height: 640;
+  x: 1100;
+  y: 0;
+}
+rect {
+  width: 360;
+  height: 720;
+  x: 1100;
+  y: 0;
+}
+rect {
+  width: 320;
+  height: 568;
+  x: 1120;
+  y: 0;
+}
+/*  */
+#screensizemap *,
+#screensizemap svg path {
+  user-select: none;
+}
+#screensizemap * {
+  box-sizing: border-box;
+}
+
+:not(svg) {
+  transform-origin: 0px 0px;
+}
