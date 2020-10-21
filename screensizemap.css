@@ -75,7 +75,7 @@ main {
 #svg-screensizes #S rect {
   fill-opacity: 0.2;
 }
-/* XXL */
+/* XXL  */
 #svg-screensizes #XXL rect {
   fill: #f1c513;
   fill-opacity: 0.2;
@@ -104,7 +104,7 @@ rect {
   width: 1536;
   height: 864;
 }
-/* XL */
+/* XL screen */
 #svg-screensizes #XL polygon,
 #svg-screensizes #XL rect {
   fill: #e67e22;
@@ -121,7 +121,7 @@ rect {
   width: 1280;
   height: 800;
 }
-
+/* opacity  */
 #svg-screensizes #XL rect {
   fill-opacity: 0.2;
 }
