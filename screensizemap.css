@@ -125,7 +125,7 @@ rect {
 #svg-screensizes #XL rect {
   fill-opacity: 0.2;
 }
-/* Large L */
+/* Large L screen */
 #svg-screensizes #L rect {
   fill: #e74c3c;
 }
@@ -138,7 +138,7 @@ rect {
   height: 540;
 }
 
-/* Medium M */
+/* Medium M screen  */
 #svg-screensizes #M rect {
   fill: #2ecc71;
 }
@@ -183,7 +183,7 @@ rect {
   height: 800;
 }
 
-/* Extra Small XS */
+/* Extra Small XS screen */
 #svg-screensizes #XS rect {
   fill: #8e44ad;
 }
