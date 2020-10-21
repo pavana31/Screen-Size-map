@@ -215,7 +215,7 @@ rect {
   width: 320;
   height: 568;
 }
-/*  */
+/* size of the map with svg */
 #screensizemap *,
 #screensizemap svg path {
   user-select: none;
