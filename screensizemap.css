@@ -54,6 +54,7 @@ main {
 :before {
   box-sizing: border-box;
 }
+/* svg container  */
 .svg-container {
   text-align: center;
   position: relative;
@@ -65,7 +66,7 @@ main {
   padding-bottom: 100%;
   padding-bottom: 56.25%;
 }
-
+/* different svg screen sizes  */
 #svg-screensizes #XXL rect,
 #svg-screensizes #XL rect,
 #svg-screensizes #XS rect,
